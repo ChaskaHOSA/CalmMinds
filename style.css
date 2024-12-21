@@ -3,7 +3,7 @@ body {
     font-family: 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #f7f9fc, #eef2f3);
+    background: #e0e0e0; /* Light gray background */
     color: #333;
 }
 
@@ -57,13 +57,13 @@ header p {
 .section ul li {
     margin: 10px 0;
     padding: 10px;
-    background: linear-gradient(135deg, #ffffff, #f7f7f7);
+    background: #f9f9f9; /* Subtle light background for list items */
     border-radius: 5px;
     transition: background 0.3s;
 }
 
 .section ul li:hover {
-    background: #e8f5e9;
+    background: #e8f5e9; /* Light green hover effect */
 }
 
 .section ul li a {
@@ -106,3 +106,4 @@ footer {
         font-size: 1rem;
     }
 }
+
